@@ -60,6 +60,8 @@ class Get:
 class environment:
   def __init__(self) -> None:
       pass
+  def func():
+    pass
 AST = NumLiteral | BinOp | Variable | Let | If_else | LetMut
 
 Value = Fraction | bool
